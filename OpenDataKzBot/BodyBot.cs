@@ -202,7 +202,6 @@ namespace OpenDataKzBot
                 {
                     Helper.LogMessage(null, ReceivedMessage.From, messageTask.Result.Date,
                         messageTask.Result.Text);
-                    Helper.UpdateLastActivityDate(ReceivedMessage.From.Id);
                 }
             }
         }
